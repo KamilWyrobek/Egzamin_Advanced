@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 70%;
+  margin: 10px auto;
+  background-color: #ffffff;
+  padding: 10px 10px 10px 10px;
+  border: 5px solid black;
+  border-radius: 25px;
+}
+
+main {
+  padding: 150px;
+}
+
+.writeSurname {
+  color: rgb(255, 0, 0);
+  text-align: right;
+}
+
+.square {
+  height: 100px;
+  width: auto;
+  background-color: rgb(253, 125, 50);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  border-radius: 15px 50px
+}
+
+.text {
+  margin: 20px auto;
+}
